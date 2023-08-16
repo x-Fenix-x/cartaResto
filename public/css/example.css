@@ -1,0 +1,38 @@
+.example .box-main {
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.example .box {
+    width: 250px;
+   /*  height: 150px; */
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.example .box-one {
+    background-color: lightblue;
+}
+
+.example .box-two {
+    background-color: lightcoral;
+}
+
+.example .box-three {
+    background-color: lightgreen;
+}
+
+.example .box-four {
+    background-color: lightpink;
+}
+
+.example .box-four {
+    background-color: lightsalmon;
+}
